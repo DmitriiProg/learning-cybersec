@@ -1,0 +1,8 @@
+git clone URL cd - change directory
+ls - list commands
+mkdir - create a directory
+nano - launches editor where you can write everything you want
+git add <file_name> 
+git commit -m "" - you can commit a change with message
+git push - uploads changes into github
+
