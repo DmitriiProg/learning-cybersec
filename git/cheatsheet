@@ -1,4 +1,5 @@
-git clone URL cd - change directory
+git clone URL 
+cd - change directory
 ls - list commands
 mkdir - create a directory
 nano - launches editor where you can write everything you want
