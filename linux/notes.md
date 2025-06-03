@@ -24,6 +24,6 @@ Random definition:
 <ul>> - output redirector (echo hey > welcome; however if file "welcome" already exists it will be overwritten). To append the output to the bottom of the file you can use ">>"</ul>
 </ls>
 
-* - wildcard (to search anything of particular kind, for example find -name *.txt)
+"*" - wildcard (to search anything of particular kind, for example find -name *.txt)
 
 <p>To be updated.</p>
