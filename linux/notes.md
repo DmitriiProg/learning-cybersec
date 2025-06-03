@@ -12,6 +12,18 @@ Random definition:
 <ul><b>ls</b> - listing (we can understand what files and folders exist; ls file_name will list the content of the file)</ul>
 <ul><b>cd</b> - change directory (cd file_name)</ul>
 <ul><b>cat</b> - concatenate (seeing the contents of files); I accidentally printed cat without arguments after it, and I entered stdin/stdout regime. To escape it you need to press ctrl + d or ctrl + c, or in the case of virtual machine in browser you may need to refresh page (f5)</ul>
-<ul><b>pwd</b> - print working directory (finding out full Path to our Current Working Directory)</ul></ls>
+<ul><b>pwd</b> - print working directory (finding out full Path to our Current Working Directory)</ul>
+<ul><b>find</b> - used to find specific files (syntax: find -name file_name)</ul>
+<ul><b>grep</b> - can use to search the entire contents of the file for any entries of the value that we are searching for. grep "what we want to find" file_name</ul>
+<ul><b>wc</b> - to count the number of entries in file (for example, in logs) wc -l file_name</ul>
+</ls>
 
-To be updated. 
+<ls>Operators/symbols:
+<ul>& - allows you to run commands in the background of your terminal (for example, if you need to download a large file you can use this operator to run the download on background allowing you to continue working in the terminal</ul>
+<ul>&& - the same as & except allowing you to run more than 1 command on the background (for example, command1 && command2; though command2 will only run if command1 was successful.)</ul>
+<ul>> - output redirector (echo hey > welcome; however if file "welcome" already exists it will be overwritten). To append the output to the bottom of the file you can use ">>"</ul>
+</ls>
+
+* - wildcard (to search anything of particular kind, for example find -name *.txt)
+
+<p>To be updated.</p>
