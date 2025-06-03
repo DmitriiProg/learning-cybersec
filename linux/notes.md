@@ -7,7 +7,7 @@ Random definition:
 <p>As mentioned in TryHackMe (linux fundamentals part 1) linux is lightweight, though it is operated through command-line.</p>
 
 <ls>Commands:
-<ul><b>echo</b> - Output any text that we provide (we don't need to use quotes if we print one word (for example, echo Hello), however we need quotes if there is a space between words (for example, echo "Hello Friend!")). I read man page of echo and noted a useful option (echo -e), which can be utilized, for example, in such cases (echo -e "\nhi there" -> outputs "hi there" on new line)</ul>
+<ul><b>echo</b> - Output any text that we provide (we don't need to use quotes if we print one word (for example, echo Hello), however we need quotes if there is a space between words (for example, echo "Hello Friend!")). <br>I read man page of echo and noted a useful option (echo -e), which can be utilized, for example, in such cases (echo -e "\nhi there" -> outputs "hi there" on new line)</ul>
 <ul><b>whoami</b> - Find out what user we're currently logged in as</ul>
 <ul><b>ls</b> - listing (we can understand what files and folders exist; ls file_name will list the content of the file)</ul>
 <ul><b>cd</b> - change directory (cd file_name)</ul>
